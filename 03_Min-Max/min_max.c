@@ -1,5 +1,3 @@
-//This c programme used to find out the minimum and maximum value in an array..
-
 #include <stdio.h>
 
 int main(void) 
