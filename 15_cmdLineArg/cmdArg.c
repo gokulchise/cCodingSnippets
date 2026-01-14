@@ -5,6 +5,12 @@ int main(int argc, char* argv[])
 {
     char* directory = argv[0];                  //argv[0] is store the working directory of ur programme.
 
+    if(argc != 3)
+    {
+        printf("\nRequired two arguments!");
+        exit(-1);
+    }
+
     //Convert string into integer using atoi()
     int lower       = atoi(argv[1]);            //argv[1] -> 1st input follows working directory you entered (ur directory -> D:\demo 5 ) 5 is argv[1]
     int higher      = atoi(argv[2]);            //argv[2] -> 2nd input follow working director you entered (D:\demo 5 10) 10 is argv[2]..
