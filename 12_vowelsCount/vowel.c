@@ -19,7 +19,7 @@ int main(void)
             case 'I':
             case 'O':
             case 'U':
-                vCount ++;                  //Count the vowels..
+                vCount ++;                  //Count the vowels by "Fall through logic"
                 break;
         }
     }
