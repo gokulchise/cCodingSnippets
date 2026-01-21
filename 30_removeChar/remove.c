@@ -31,9 +31,9 @@ void remove_char(char* string, char r)                  //Function definition of
             while (string[new_pos] != '\0')             //Iterate loop until end of string..
             {
                 string[new_pos] = string[new_pos + 1];  //Left shift every char by one..
-                new_pos++;                              
+                new_pos++;                              //Increment the new position by one..                  
             }
         }
-        pos++;                                          //Increment the position of char in string..
+        pos++;                                          //Increment the current position by one..
     }
 }
